@@ -1,95 +1,53 @@
-# Hospital Mamagement System
+# Hospital Management System
 Hospital Management System using MySQL, Php and Bootstrap
 
-Video Demo : [Hospital Management System - Youtube](https://www.youtube.com/watch?v=KgqSy0EuVHs&t=7s)
 
-## FRONT END TOOLS
+Video Demo : [Hospital Management System - Youtube](https://www.youtube.com/watch?v=W2XGSM5i9P8)
 
-### Bootstrap
- Bootstrap is an open-source Javascript framework developed by the team at Twitter. It is a combination of HTML, CSS, and Javascript code designed to help build user interface components. Bootstrap was also programmed to support both HTML5 and CSS3.Also it is called Front-end-framework.
- 
- Bootstrap is a free collection of tools for creating a websites and web applications. It contains HTML and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions.
+Live Demo : [Hospital Management System - 000webhost by Kishan](https://kishan0725.000webhostapp.com)
 
-Some Reasons for programmers preferred Bootstrap Framework:
+## Need to work on:
 
-    1. Easy to get started
-    2. Great grid system
-    3. Base styling for most HTML elements(Typography,Code,Tables,Forms,Buttons,Images,Icons)
-    4. Extensive list of components
-    5. Bundled Javascript plugins
-    
-### Why Use Bootstrap?
+1. Ability to accept the appointment by the doctor to acknowledge the patient that their appointment has been approved.
+2. User should not be allowed to register if he/she tries to provide the already registered email ID.
+3. The password should be encrypted and the password field shouldn't be displayed in the admin panel.
+4. Implementation of pagination for all the list view across the application.
+5. Bug fix - Bill payment receipt contains multiple record if the patient has associated with the same doctor multiple times.
+6. Addition of more fields in the prescription statement to make it more specific one.
+7. Addition of more details on payment - such as date of the payment made, amount paid, etc.
+8. Implementation of export button in admin module to export all details to an excel sheet.
 
-   Following are the main advantage of Bootstrap:
-      
-    • It is very easy to use. Anybody having basic knowledge of HTML and CSS can use Bootstrap.
-    • It facilitates users to develop a responsive website (can automatically adjust itself to look good on all devices, from smart phones to desktops etc.).
-    • It is compatible on most of browsers like Chrome, Firefox, Internet Explorer, Safari and Opera etc.
-   
- ### What Bootstrap Package Contains?
- 
-  **Scaffolding:** Bootstrap provides a basic structure with Grid System, link styles, and background.
+## Prerequisites
+1. Install XAMPP web server
+2. Any Editor (Preferably VS Code or Sublime Text)
+3. Any web browser with latest version
 
-  **CSS:** Bootstrap comes with the feature of global CSS settings, fundamental HTML elements style and an advanced grid system.
+## Languages and Technologies used
+1. HTML5/CSS3
+2. JavaScript (to create dynamically updating content)
+3. Bootstrap (An HTML, CSS, and JS library)
+4. XAMPP (A web server by Apache Friends)
+5. Php
+6. MySQL (An RDBMS that uses SQL)
+7. TCPDF (to generate PDFs)
 
-  **Components:** Bootstrap contains a lot of reusable components built to provide iconography, dropdowns, navigation, alerts, pop-overs, and much more.
-
-  **JavaScript Plugins:** Bootstrap also contains a lot of custom jQuery plugins. You can easily include them all, or one by one.
-
-  **Customize:** Bootstrap components are customizable and you can customize Bootstrap's components, LESS variables, and jQuery plugins to get your own style.
-  
-### Primary Bootstrap Files
-
-As a front-end framework, Bootstrap has three primary files:
-
-    • bootstrap.js - which is a jQuery/JavaScript framework.
-    • bootstrap.css - which is a CSS framework
-    • glyphicons - which is a set of icon fonts
-    
-## BUSINESS LOGIC WITH PHP
-
-### What Exactly Is Php?
-
-    • PHP stands for Hypertext Preprocessor.
-    • PHP is an interpreted language, i.e., there is no need for compilation.
-    • PHP is a server-side scripting language.
-    • PHP is faster than other scripting languages, for example, ASP and JSP.
-           
-### Why Use Php?
-    • PHP is open source and free.
-    • Short learning curve compared to other languages such as JSP, ASP etc.
-    • Large community document
-    • Most web hosting servers support PHP by default unlike other languages such as ASP that need IIS. This makes PHP a cost effective choice.
-    • PHP is regular updated to keep abreast with the latest technology trends.
-
-
-    • Other benefit that you get with PHP is that it’s a server side scripting language; this means you only need to install it on the server and client computers requesting for resources from the server do not need to have PHP installed; only a web browser would be enough.
-    • PHP has in-built support for working hand in hand with MySQL; this doesn’t mean you can’t use PHP with other database management systems. You can still use PHP with
-        ◦ Postgres
-        ◦ Oracle
-        ◦ MS SQL Server
-        ◦ ODBC etc.
-    • PHP is cross platform; this means you can deploy your application on a number of different operating systems such as windows, Linux, Mac OS etc.
-
-## MySQL  DATABASE
-
-	MySQL is a fast, easy-to-use RDBMS being used for many small and big businesses. MySQL is developed, marketed and supported by MySQL AB, which is a Swedish company. MySQL is becoming so popular because of many good reasons 
-
-    •      MySQL is a very powerful program in its own right. It handles a large subset of the functionality of the most expensive and powerful database packages.
-    •      MySQL uses a standard form of the well-known SQL data language.
-    •      MySQL works on many operating systems and with many languages including PHP, PERL, C, C++, JAVA, etc.
-    •      MySQL works very quickly and works well even with large data sets.
-    •      MySQL is very friendly to PHP, the most appreciated language for web development.
-    •      MySQL supports large databases, up to 50 million rows or more in a table. The default file size limit for a table is 4GB, but you can increase this (if your operating system can handle it) to a theoretical limit of 8 million terabytes (TB).
-    •      MySQL is customizable. The open-source GPL license allows programmers to modify the MySQL software to fit their own specific environments.
+## Steps to run the project in your machine
+1. Download and install XAMPP in your machine
+2. Clone or download the repository
+3. Extract all the files and move it to the 'htdocs' folder of your XAMPP directory.
+4. Start the Apache and Mysql in your XAMPP control panel.
+5. Open your web browser and type 'localhost/phpmyadmin'
+6. In phpmyadmin page, create a new database from the left panel and name it as 'myhmsdb'
+7. Import the file 'myhmsdb.sql' inside your newly created database and click ok.
+8. Open a new tab and type 'localhost/foldername' in the url of your browser
+9. Hurray! That's it!
     
 ### SOFTWARES USED
   - XAMPP was installed on the Ubuntu 19.04 machine and APACHE2 Server and MySQL were initialized. And, files were built inside opt/lampp/htdocs/myhmsp
   - Sublime Text 3.2 was used as a text editor.
-  - Google Chrome Version 77.0.3865.90 was used to run the project (localhost /myhmsp was used as the url).
+  - Google Chrome Version 77.0.3865.90 was used to run the project (localhost/myhmsp was used as the url).
   
-## XAMPP:
-  XAMPP stands for Cross-Platform (X), Apache (A), MariaDB (M), PHP (P) and Perl (P). It is a simple, lightweight Apache distribution that makes it extremely easy for developers to create a local web server for testing and deployment purposes. Everything needed to set up a web server – server application (Apache), database (MariaDB), and scripting language (PHP) – is included in an extractable file. XAMPP is also cross-platform, which means it works equally well on Linux, Mac and Windows.
+
 ### Starting Apache And MySQL in XAMPP:
   The XAMPP Control Panel allows you to manually start and stop Apache and MySQL. To start Apache or MySQL manually, click the ‘Start’ button under ‘Actions’.
   
@@ -171,6 +129,7 @@ In real-time, the doctors will have thousands of appointments. It will be easier
    
    &nbsp; &nbsp; &nbsp; This module is the heart of our project where an admin can see the list of all patients. Doctors and appointments and the feedback/queries received from the ‘Contact’ page. Also admin can add doctor too. 
   &nbsp; &nbsp; &nbsp; Login into admin account can be done by toggling into admin tab of the Home page. Fig 1.13 shows the login page for admin.
+  &nbsp; &nbsp; &nbsp; `username`: admin, `password`: admin123
 
 ![image](https://user-images.githubusercontent.com/36665975/66570795-e961e800-eb8b-11e9-94e2-79940ff1d45e.png)
 
